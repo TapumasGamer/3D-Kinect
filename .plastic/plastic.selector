@@ -1,0 +1,4 @@
+repository "3D Kinect@tapumasgamer@cloud"
+  path "/"
+    br "/main"
+    co "/main"
