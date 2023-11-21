@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SeleccionGrados.unity
     guid: 37f95636000804d40be80ae7f0a73206
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Grado0.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
