@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     public float HorizontalMove;
@@ -14,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public float VelocidadCaida;
     public Camera MainCamera;
     public float JumpForce;
+    
 
 
     private Vector3 playerInput;
