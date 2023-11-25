@@ -11,4 +11,8 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void Opciones(string nombre)
+    {
+        SceneManager.LoadScene(nombre);
+    }
 }
