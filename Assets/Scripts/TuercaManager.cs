@@ -5,7 +5,12 @@ public class TuercaManager : MonoBehaviour
 {
     private bool pausado = false;
     public GameObject TuercaPanel;
-    
+
+
+    private void Start()
+    {
+        TuercaPanel.SetActive(false);
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
