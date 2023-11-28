@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuManager : MonoBehaviour
+public class MaanagerCopy : MonoBehaviour
 {
-    public void SeleccionarJornada(string nombre)
+    public void CargarNivel(string nombre)
     {
         SceneManager.LoadScene(nombre);
     }
@@ -15,6 +15,4 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(nombre);
     }
-
 }
-

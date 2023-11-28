@@ -50,6 +50,6 @@ public class TuercaManager : MonoBehaviour
     public void Salir()
     {
         Application.Quit();
-        Debug.Log("Saliendo de la Aplicación");
+        Debug.Log("Saliendo de la Aplicaciï¿½n");  // mas adelante toca mirar la forma de que guarde los datos con lo de mauricio al salir 
     }
 }
