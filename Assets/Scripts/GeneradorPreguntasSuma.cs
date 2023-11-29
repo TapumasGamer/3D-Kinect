@@ -15,6 +15,7 @@ public class GeneradorPreguntasSuma : MonoBehaviour
     void Start()
     {
         GenerarPregunta();
+        PreguntasPanel.SetActive(false);
     }
     void Update()
     {
